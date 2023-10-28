@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "predeploy" : "npm run build",
-    "deploy" : "touch out/.nojekyell $$ gh-pages -d out --dotfiles",
+    "deploy" : "touch docs/.nojekyell $$ gh-pages -d docs --dotfiles",
     "start": "next start",
     "lint": "next lint"
   },
